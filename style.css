@@ -131,6 +131,7 @@ nav a {
     border: 1px solid white;
     margin: 0.5rem;
     display: inline-block;
+    margin-top: 0;
 }
 
 a:hover {
@@ -141,6 +142,10 @@ a:hover {
 header {
     background-image: url('/images/crisco-small.jpg');
     background-size: cover;
+}
+
+.logo h2 {
+    margin-bottom: 0;
 }
 
 header nav {
