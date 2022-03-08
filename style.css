@@ -226,15 +226,44 @@ textarea:focus {
 
 }
 
+/* Hamburger Menu Styles */
+.active { color: purple; }
 
+.hamburger-button {
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    right: 10%;
+    top: 9%;
+    z-index: 1;
+}
 
+.mobile-menu {
+    display: none;
+    background-color: lightblue;
+    padding: 15% 5%;
+    font-size: 2rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
+.mobile-menu a {
+    display: block;
+    padding: 5vh 5%;
+    margin: 5%;
+    border: 3px solid white;
+    border-radius: 1rem;
+}
 
-
-
-
-
-
+.mobile-menu a:hover {
+    background-color: violet;
+    color: white;
+}
 
 
 
@@ -242,7 +271,8 @@ textarea:focus {
 
 .show-xs, 
 .show-sm,
-.show-md {
+.show-md,
+.mobile-menu {
 	display: none;
 }
 
