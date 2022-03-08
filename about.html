@@ -1,50 +1,11 @@
-<!DOCTYPE html>
-<html>
-<!-- The head of the html for external resources and metadata -->
-
-<head>
-<!-- Meta Data Responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title> Sleep like a baby </title>
-
-<!-- Fontawesome CDNJS for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Gridlex for flexbox grids -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.0/gridlex.min.css">
-
-<!-- Google Fonts - Domine, Lemonada, Sansita Swashed (300,400) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Lemonada:wght@300;400&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
-
-<!-- CSS stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-
-
-
-</head>
-
-<!-- The body of the html for all of the page content -->
-<body>
+---
+layout: default
+---
 
 <!-- Header Banner -->
 <header class="padded grid center tall-70 md-tall-50">
-    <div class="col-12-top grid">
-        <div class="col-5_sm-12 sm-padded">
-            <a href="/index.html" class="logo">
-                <h2> The Sleep Co </h2>
-            </a>
-        </div>
-
-        <nav class="col-7_sm-12-middle right sm-text-center">
-            <a href="/index.html"> Home </a>
-            <a href="/about.html"> About </a>
-            <a href="/products.html"> Products </a>
-            <a href="/contact.html"> Contact </a>
-        </nav>
-    </div>
+    
+    {% include header-nav.html %}
 
     <div class="col-12">
         <h3> we're the <span class="featured-text"> best </span> </h3>
@@ -109,39 +70,3 @@
     </div>
 </section>
 
-<!-- Footer -->
-<footer class="padded grid-spaceBetween bg-dark">
-    <div class="col-4-bottom">
-        <h2> Let's <br> <span class="featured-text"> connect </span> </h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero adipisci, in asperiores porro repudiandae dolores vitae nulla aperiam recusandae qui, dolor sint voluptates aliquid iste totam velit delectus fuga? In. </p>
-    </div>
-    <div class="col-5-bottom">
-        <p> <strong> Call: </strong> <a href="tel:#"> 01234567 78910 </a> </p>
-        <p> <strong> Email: </strong> <a href="mailto:#"> hello@thesleep.co </a> </p>
-        <p> <strong> Store: </strong> <a href="#"> 79 Orchid Avenue, San Fransisco </a> </p>
-        <p> <strong> Instagram: </strong> <a href="https://www.instagram.com/thesleepdotco"> @thesleepdotco </a> </p>
-    </div> 
-</footer>
-
-<!-- GetButton.io widget -->
-<script type="text/javascript">
-    (function () {
-        var options = {
-            telegram: "TheRosesClub", // Telegram bot username
-            email: "hello@therosesclub.com", // Email
-            call_to_action: "Get in touch with us!", // Call to action
-            button_color: "#932C8B", // Color of button
-            position: "right", // Position may be 'right' or 'left'
-            order: "telegram,email", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
-<!-- /GetButton.io widget -->
-
-</body>
-
-</html>
