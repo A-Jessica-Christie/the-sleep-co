@@ -3,25 +3,25 @@ layout: default
 gallery:
  - column-size: col-6
    aspect-ratio: square
-   background-image: /images/crisco-small.jpg
+   background_image: /images/crisco-small.jpg
  - column-size: col-6
    aspect-ratio: square
-   background-image: /images/crisco-small.jpg
+   background_image: /images/crisco-small.jpg
  - column-size: col-12
    aspect-ratio: landscape
-   background-image: /images/crisco-small.jpg
+   background_image: /images/crisco-small.jpg
  - column-size: col-4
    aspect-ratio: portrait-tall
-   background-image: /images/crisco-small.jpg
+   background_image: /images/crisco-small.jpg
  - column-size: col-4
    aspect-ratio: portrait-tall
-   background-image: /images/crisco-small.jpg
+   background_image: /images/crisco-small.jpg
  - column-size: col-4
    aspect-ratio: portrait-tall
-   background-image: /images/crisco-small.jpg
+   background_image: /images/crisco-small.jpg
  - column-size: col-12
    aspect-ratio: landscape
-   background-image: /images/crisco-small.jpg
+   background_image: /images/crisco-small.jpg
 ---
 
 <!-- Header Banner -->
@@ -31,9 +31,9 @@ gallery:
 
     <div class="col-12">
         <h3 data-aos="fade-in" data-aos-duration="3000"> <span class="featured-text"> explore </span> our world </h3>
-        <h1 data-aos="fade-up" data-aos-duration="1000"> the best sleeping experience </h1>
+        <h1 data-aos="fade-up" data-aos-duration="1000"> experience the best dream ever </h1>
     </div>
-    
+
 </header>
 
 <!-- Responsive Image Gallery -->
@@ -43,7 +43,7 @@ gallery:
         {% for item in page.gallery %}
         <div class="{{item.column-size}}">
             <div class="bg-image {{item.aspect-ratio}}"
-                 style="background-image: url('{{item.background-image}}');">
+                 style="background-image: url('{{item.background_image}}');">
             </div>
         </div>
         {% endfor %}
