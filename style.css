@@ -140,7 +140,7 @@ nav a {
     margin-top: 0;
 }
 
-a:hover {
+header a:hover {
     color: purple;
 }
 
@@ -169,6 +169,41 @@ a:hover {
 /* Image Gallery Sytles */
 .gallery [class*="col-"] {
     padding: 0.5rem;
+}
+
+/* Gallery PopUp Style */
+.lg-backdrop {
+    background-color: lightskyblue;
+}
+
+.lg-backdrop.in {
+    opacity: 0.9;
+}
+
+.lg-sub-html {
+    background-color: #51748a;
+}
+
+.button {
+    padding: 1.5rem 2rem;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 0.9rem;
+    background-color: purple;
+    appearance: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.gallery a:hover {
+    background-color: lightskyblue;
+    color: white;
+    text-decoration: none;
 }
 
 /* Header & Footer Styles */

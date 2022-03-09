@@ -22,6 +22,9 @@
 <!-- jQuery Animate on Scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+<!-- jQuery Light Gallery for Pop Up -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <!-- CSS stylesheet -->
     <link rel="stylesheet" href="/style.css">
 
@@ -73,7 +76,7 @@
 
 </header>
 
-<!-- Responsive Image Gallery -->
+<!-- Responsive Image Gallery with PopUp button -->
 <section class="padded">
     <div class="gallery grid">
 
@@ -121,26 +124,19 @@
         </div>
         
 
-    <!-- <div class="gallery grid">
-        <div class="col-6">
-            <div class="bg-image square bg-img-1"></div>
-        </div>
-        <div class="col-6">
-            <div class="bg-image square bg-img-2 bg-pos-b"></div>
-        </div>
-        <div class="col-4_xs-12">
-            <div class="bg-image portrait-tall bg-img-3"></div>
-        </div>
-        <div class="col-4_xs-12">
-            <div class="bg-image portrait-tall bg-img-4"></div>
-        </div>
-        <div class="col-4_xs-12">
-            <div class="bg-image portrait-tall "></div>
-        </div>
-        <div class="col-12">
-            <div class="bg-image landscape bg-img-5"></div>
-        </div>
-    </div> -->
+    </div>
+
+    <br> 
+    <!-- Button for PopUp -->
+    <div class="gallery" id="lightgallery">
+        <a class="button" href="/images/red-rose.jpg" title="Red Rose">
+            View Our Work
+        </a>
+        <a href="/images/black-rose.jpg" title="Black Rose"> </a>
+        <a href="/images/pink-rose.jpg" title="Pink Rose"> </a>
+        <a href="/images/blue-rose.jpg" title="Blue Rose"> </a>
+        <a href="/images/crisco-small.jpg" title="Art by Crisco"> </a>
+    </div>
 </section>
 
     <!-- Footer -->
@@ -183,7 +179,10 @@
 <!-- Plugin --- Animate on Scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<!-- Custom jQuery Styles -->
+<!-- Plugin--- Light Gallery for Pop Up -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js"></script>
+
+<!-- Custom jQuery Styles --- Do not put anything below here! -->
     <script src="/script.js"></script>
 
 </body>

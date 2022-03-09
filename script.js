@@ -13,4 +13,10 @@ $( document ).ready(function() {
         once: false // whether animation should happen only once - while scrolling down
     });
 
+    // Light Gallery Pop Up activate
+    lightGallery(document.getElementById('lightgallery'), {
+        speed: 500,
+        download: false
+    });
+
 });
