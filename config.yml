@@ -1,10 +1,10 @@
 _select_data:
   aspect-ratios:
     - square
-    - landscape
-    - landscape-wide
     - portrait
     - portrait-tall
+    - landscape
+    - landscape-wide
 
   column-sizes:
     col-3: One Quarter
