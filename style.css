@@ -5,19 +5,34 @@
 }
 
 /* Image Styles */
-.portrait-tall  {padding-bottom: 175%;}
-.portrait       {padding-bottom: 125%;}
-.square         {padding-bottom: 100%;}
-.landscape      {padding-bottom: 66%;}
-.landscape-wide {padding-bottom: 56%;}
+.bg-dark {
+    background-color: #192b37;
+    color: white;
+}
+
+.bg-featured {
+    background-color: skyblue;
+}
+
+.portrait-tall  { padding-bottom: 175%; }
+.portrait       { padding-bottom: 125%; }
+.square         { padding-bottom: 100%; }
+.landscape      { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56%; }
 
 .bg-image {
     background-image: url('/images/crisco-small.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+    background-color: rgb(240,240,240);
     min-height: 10rem;
 }
+
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
 
 /* ------- Universal Styles & Utility Classes */
 
@@ -29,15 +44,6 @@ body {
 .padded     { padding: 5%; }
 .padded-sm  { padding: 1rem; }
 .padded-lg  { padding: 10%; }
-
-.bg-dark {
-    background-color: #192b37;
-    color: white;
-}
-
-.bg-featured {
-    background-color: skyblue;
-}
 
 .tall-30    { min-height: 30vh; }
 .tall-50    { min-height: 50vh; }
@@ -158,6 +164,11 @@ a:hover {
     right: 0; */
     width: 100%; 
     height: 100%;
+}
+
+/* Image Gallery Sytles */
+.gallery [class*="col-"] {
+    padding: 0.5rem;
 }
 
 /* Header & Footer Styles */
