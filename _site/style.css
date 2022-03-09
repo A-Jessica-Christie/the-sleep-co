@@ -51,7 +51,8 @@ body {
 .tall-80    { min-height: 80vh; }
 .tall-100   { min-height: 100vh; }
 
-.fas {
+.fas,
+.fa-solid {
     display: inline-block;
     text-align: center;
     font-size: 3rem;
@@ -85,8 +86,9 @@ body {
     display: inline-block;
     color: rgb(120,120,125);
     line-height: 1;
+    opacity: 0.5;
 }
-
+    
 .logo {
     color: inherit;
     text-decoration: none;
