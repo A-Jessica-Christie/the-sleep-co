@@ -310,11 +310,16 @@ textarea:focus {
     margin: 5%;
     border: 3px solid white;
     border-radius: 1rem;
+    background-color: white;
+    color: lightblue;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .mobile-menu a:hover {
-    background-color: violet;
+    background-color: lightskyblue;
     color: white;
+    border: 3px solid lightskyblue;
 }
 
 

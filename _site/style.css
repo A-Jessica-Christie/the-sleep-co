@@ -310,11 +310,16 @@ textarea:focus {
     margin: 5%;
     border: 3px solid white;
     border-radius: 1rem;
+    background-color: white;
+    color: lightblue;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .mobile-menu a:hover {
-    background-color: violet;
+    background-color: lightskyblue;
     color: white;
+    border: 3px solid lightskyblue;
 }
 
 
@@ -333,8 +338,6 @@ textarea:focus {
 
 @media (max-width: 64em) {
 
-    body { border: 2px solid green; padding: 0.5rem; }
-
   .show-md { display: block; }
   .hide-md { display: none;  }
 
@@ -349,8 +352,6 @@ textarea:focus {
 
     html { font-size: 14px; }
     p { font-size: 1.1rem; }
-
-    body { border: 2px solid blue; }
 
   .show-sm { display: block; }
   .hide-sm { display: none;  }
@@ -381,8 +382,6 @@ textarea:focus {
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
 
 @media (max-width: 36em) {
-
-    body { border: 2px solid orange; }
 
   .show-xs { display: block; }
   .hide-xs { display: none;  }
