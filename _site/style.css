@@ -172,6 +172,9 @@ header a:hover {
 .gallery [class*="col-"] {
     padding: 0.5rem;
 }
+.gallery {
+    margin-bottom: 1rem;
+}
 
 /* Gallery PopUp Style */
 .lg-backdrop {
@@ -188,6 +191,7 @@ header a:hover {
 
 .button {
     padding: 1.5rem 2rem;
+    margin-top: 1rem;
     letter-spacing: 0.15rem;
     font-weight: bold;
     font-family: inherit;
@@ -198,7 +202,6 @@ header a:hover {
     color: white;
     cursor: pointer;
     border-radius: 0.5rem;
-    margin-top: 1rem;
     text-decoration: none;
 }
 
