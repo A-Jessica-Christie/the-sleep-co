@@ -278,13 +278,13 @@ textarea:focus {
 }
 
 /* Hamburger Menu Styles */
-.active { color: purple; }
+.active { color: teal; }
 
 .hamburger-button {
     font-size: 2rem;
     cursor: pointer;
     display: inline-block;
-    color: teal;
+    color: purple;
     position: fixed;
     right: 10%;
     top: 5%;
