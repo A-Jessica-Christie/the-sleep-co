@@ -278,7 +278,7 @@ textarea:focus {
 }
 
 /* Hamburger Menu Styles */
-.active { color: white; }
+.active { color: teal; }
 
 .hamburger-button {
     font-size: 2rem;
