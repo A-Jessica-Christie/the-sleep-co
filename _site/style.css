@@ -275,22 +275,23 @@ textarea:focus {
 }
 
 /* Hamburger Menu Styles */
-.active { color: purple; }
+.active { color: white; }
 
 .hamburger-button {
     font-size: 2rem;
     cursor: pointer;
     display: inline-block;
+    color: purple;
     position: fixed;
     right: 10%;
-    top: 9%;
+    top: 5%;
     z-index: 1;
 }
 
 .mobile-menu {
     display: none;
     background-color: lightblue;
-    padding: 15% 5%;
+    padding: 20% 5%;
     font-size: 2rem;
     text-align: center;
     position: fixed;
